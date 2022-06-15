@@ -407,6 +407,7 @@ transform: translate(-50%, -50%); */
 }
 .clients-icon-link {
   transition: color var(--transition), border-color var(--transition);
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -620,6 +621,7 @@ transform: translate(-50%, -50%); */
   transition: transform var(--transition);
   top: 0;
   left: 0;
+
   padding-top: 63px;
   padding-right: 24px;
   padding-bottom: 63px;
