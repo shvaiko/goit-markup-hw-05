@@ -124,7 +124,7 @@ img {
 .site-nav .current::after {
   content: '';
   position: absolute;
-  bottom: 0px;
+  bottom: -1px;
   left: 0px;
 
   width: 100%;
@@ -132,8 +132,6 @@ img {
 
   background-color: var(--accent);
   border-radius: 2px;
-  /* костыль? */
-  bottom: -1px;
 }
 .main-nav {
   display: flex;
