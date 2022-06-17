@@ -101,6 +101,8 @@ img {
 }
 .site-nav .link {
   position: relative;
+  /* transition: задается на базовый класс,
+   не на :hover и :focus */
   transition: color var(--transition);
 
   display: flex;
@@ -124,7 +126,7 @@ img {
 .site-nav .current::after {
   content: '';
   position: absolute;
-  bottom: -1px;
+  bottom: 0px;
   left: 0px;
 
   width: 100%;
@@ -306,7 +308,6 @@ transform: translate(-50%, -50%); */
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
-  font-size: 14px;
 
   background-color: rgba(47, 48, 58, 0.8);
   color: var(--bg-color);
